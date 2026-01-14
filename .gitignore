@@ -3,6 +3,9 @@
 # 기존 개발 폴더 (src로 이전됨)
 QRproject2/
 
+# Claude Code settings
+.claude/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

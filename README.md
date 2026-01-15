@@ -195,7 +195,8 @@ Date,Visit Type,Diagnosis,Medications,Treatment
 
 For questions or collaborations:
 
-**Author:** Kim Jin Soo, Kang Minsuk, Kang Seyoung, Jo Yoonju
+**Author:** Kim Jin Soo, Kang Minsuk, Kang Seyoung, Jo Yoonju  
+
 **GitHub:** [@jinsoo96](https://github.com/jinsoo96), [@minsuk1003](https://github.com/minsuk1003), [@strongeryoung](https://github.com/strongeryoung), [@justlikeazoo](https://github.com/justlikeazoo)
 
 ---

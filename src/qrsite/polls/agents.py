@@ -30,32 +30,6 @@ class MyMultiActionAgent(BaseMultiActionAgent):
 
 
 
-
-
-    # async def aplan(self, intermediate_steps, **kwargs):
-    #         if len(intermediate_steps) == 0:
-    #             return [AgentAction(tool="QRCodeTool", tool_input=kwargs["input"], log="")]
-    #         else:
-    #             # QRCodeTool에서 생성된 파일 이름을 가져와야 함
-    #             qr_code_file_name = intermediate_steps[0].output
-    #             return AgentFinish(return_values={"output": qr_code_file_name}, log="")
-
-
-
-
-
-
-    # async def aplan(self, intermediate_steps, **kwargs):
-    #     if len(intermediate_steps) == 0:
-    #         return [AgentAction(tool="QRCodeTool", tool_input=kwargs["input"], log="")]
-    #     else:
-    #         return AgentFinish(return_values={"output": "QR 코드가 생성되었습니다."}, log="")
-
-
-
-
-
-
 # 프롬프트 템플릿 클래스
 class MyPromptTemplate(StringPromptTemplate):
     input_variables: List[str] = ["input"]
